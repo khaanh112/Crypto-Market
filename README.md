@@ -1,12 +1,70 @@
-# React + Vite
+# Crypto Market - React Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Crypto Market là một ứng dụng web được xây dựng bằng React giúp bạn tra cứu, theo dõi giá và thông tin các loại tiền điện tử phổ biến. Ứng dụng sử dụng API từ CoinGecko để cập nhật dữ liệu thị trường theo thời gian thực.
 
-Currently, two official plugins are available:
+## Tính năng nổi bật
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Xem danh sách các đồng coin phổ biến với giá theo nhiều loại tiền tệ (USD, EUR, VND).
+- Tra cứu chi tiết từng đồng coin: biểu đồ giá, thông tin cơ bản, lịch sử giá.
+- Chuyển đổi đơn vị tiền tệ dễ dàng ngay trên thanh điều hướng.
+- Giao diện hiện đại, responsive, dễ sử dụng.
+- Tìm kiếm coin nhanh chóng.
+- Đăng ký tài khoản (demo UI).
 
-## Expanding the ESLint configuration
+## Công nghệ sử dụng
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ReactJS
+- React Router DOM
+- React Context API
+- react-google-charts
+- CSS modules
+- CoinGecko API
+
+## Cài đặt & chạy dự án
+
+1. **Clone repository:**
+   ```bash
+   git clone https://github.com/yourusername/crypto-market-react.git
+   cd crypto-market-react
+   ```
+
+2. **Cài đặt dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Chạy ứng dụng:**
+   ```bash
+   npm run dev
+   ```
+   Truy cập [http://localhost:5173](http://localhost:5173) trên trình duyệt.
+
+## Cấu trúc thư mục
+
+```
+src/
+  ├── components/
+  │     ├── navbar/
+  │     ├── LineChart/
+  │     └── Footer/
+  ├── context/
+  ├── pages/
+  │     ├── Home/
+  │     └── Coin/
+  ├── assets/
+  ├── App.jsx
+  ├── index.css
+```
+
+## API sử dụng
+
+- [CoinGecko API](https://www.coingecko.com/en/api/documentation)
+
+## Đóng góp
+
+Mọi đóng góp, ý kiến hoặc báo lỗi vui lòng tạo issue hoặc pull request trên GitHub.
+
+---
+
+**Tác giả:**  
+- [Tên của bạn hoặc nhóm phát triển]
