@@ -36,7 +36,7 @@ const Home = () => {
     <div className='home'>
       <div className='hero'>
         <h1>Largest <br /> Crypto Marketplace</h1>
-        <p>Buy and sell cryptocurrencies, trusted by 10M+ users</p>
+        <p>Buy and sell cryptocurrencies, trusted by me</p>
         <form onSubmit={searchHandler}>
           <input onChange={inputHandler} list='coin-list' value={searchTerm} type="text" placeholder='Search for cryptocurrencies' required/>
 
