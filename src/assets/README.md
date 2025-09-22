@@ -6,11 +6,11 @@ Crypto Market là một ứng dụng web được xây dựng bằng React giúp
 
 ### Trang chủ
 
-![Home Screenshot](./assets/home.png)
+![Home Screenshot](./assets/MainLayout.png)
 
 ### Trang chi tiết coin
 
-![Coin Detail Screenshot](./assets/coin-detail.png)
+![Coin Detail Screenshot](./assets/CoinLayout.png)
 
 ## Tính năng nổi bật
 
