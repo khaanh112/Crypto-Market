@@ -68,7 +68,16 @@ const Home = () => {
                 <p>{item.name} <span>({item.symbol})</span></p>
               </div>
               <p>{currency.symbol}{item.current_price.toLocaleString()}</p> 
-              <p style={{textAlign: 'center', color: item.price_change_percentage_24h < 0 ? 'red' : 'green'}}>{item.price_change_percentage_24h.toFixed(2)}%</p>
+              <p
+                style={{
+                  textAlign: 'center',
+                  color: item.price_change_percentage_24h < 0 ? 'red' : 'green'
+                }}
+              >
+                {typeof item.price_change_percentage_24h === 'number'
+                  ? `${item.price_change_percentage_24h.toFixed(2)}%`
+                  : 'N/A'}
+              </p>
               <p className='market-cap'>{currency.symbol}{item.market_cap.toLocaleString()}</p>
             </Link>
 

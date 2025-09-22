@@ -2,6 +2,16 @@
 
 Crypto Market là một ứng dụng web được xây dựng bằng React giúp bạn tra cứu, theo dõi giá và thông tin các loại tiền điện tử phổ biến. Ứng dụng sử dụng API từ CoinGecko để cập nhật dữ liệu thị trường theo thời gian thực.
 
+## Ảnh giao diện
+
+### Trang chủ
+
+![Home Screenshot](./assets/home.png)
+
+### Trang chi tiết coin
+
+![Coin Detail Screenshot](./assets/coin-detail.png)
+
 ## Tính năng nổi bật
 
 - Xem danh sách các đồng coin phổ biến với giá theo nhiều loại tiền tệ (USD, EUR, VND).
@@ -65,6 +75,3 @@ src/
 Mọi đóng góp, ý kiến hoặc báo lỗi vui lòng tạo issue hoặc pull request trên GitHub.
 
 ---
-
-**Tác giả:**  
-- [Tên của bạn hoặc nhóm phát triển]
